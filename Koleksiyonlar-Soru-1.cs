@@ -9,7 +9,7 @@ class Question1{
         ArrayList nonPrime = new ArrayList();
 
         Console.WriteLine("20 adet pozitif tam sayı giriniz");
-        for(int i = 0; i<5; i++) {
+        for(int i = 0; i<20; i++) {
             int n = Convert.ToInt32(Console.ReadLine());
             if (n<0) {
                 Console.WriteLine("Negatif sayı girdiniz. Program sonlandırılıyor");
