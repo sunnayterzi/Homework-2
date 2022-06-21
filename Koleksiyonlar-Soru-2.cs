@@ -4,10 +4,10 @@ using System.Collections;
 class Question1{
 
     static void Main(String [] args) {
-        int [] arr = new int[7];
+        int [] arr = new int[20];
 
         Console.WriteLine("20 adet tam sayı giriniz");
-        for(int i = 0; i<7; i++) {
+        for(int i = 0; i<20; i++) {
             int n = Convert.ToInt32(Console.ReadLine());
             arr[i]=n;
         }
@@ -28,9 +28,8 @@ class Question1{
         int maxSum = 0;
 
         for(int i = 0; i<3; i++){
-            Console.WriteLine("min "+min3[i]);
+           
             minSum += min3[i]; 
-            Console.WriteLine("max "+max3[i]);
             maxSum += max3[i];
 
         }
